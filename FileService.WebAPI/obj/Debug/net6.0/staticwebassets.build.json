@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "kTyFVL7AioPeQ7onRCqI5imZJvv7Y08mRZVD/UuMwrk=",
+  "Source": "FileService.WebAPI",
+  "BasePath": "_content/FileService.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FileService.WebAPI\\wwwroot",
+      "Source": "FileService.WebAPI",
+      "ContentRoot": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\07f1437f8c0add507151141e958c2ceb4bd59b085b921dcafefb5728ed51179b\\330c7018-b1f1-4807-b5df-77a0689739a0.m4a",
+      "SourceId": "FileService.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "RelativePath": "2023/6/25/07f1437f8c0add507151141e958c2ceb4bd59b085b921dcafefb5728ed51179b/330c7018-b1f1-4807-b5df-77a0689739a0.m4a",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2023\\6\\25\\07f1437f8c0add507151141e958c2ceb4bd59b085b921dcafefb5728ed51179b\\330c7018-b1f1-4807-b5df-77a0689739a0.m4a"
+    },
+    {
+      "Identity": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\164e2648a094fbfe743da8730f9d7d390af5702fa04220d51cacb3be49dd87da\\历年真题(八).m4a",
+      "SourceId": "FileService.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "RelativePath": "2023/6/25/164e2648a094fbfe743da8730f9d7d390af5702fa04220d51cacb3be49dd87da/历年真题(八).m4a",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2023\\6\\25\\164e2648a094fbfe743da8730f9d7d390af5702fa04220d51cacb3be49dd87da\\历年真题(八).m4a"
+    },
+    {
+      "Identity": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6\\历年真题(八).mp3",
+      "SourceId": "FileService.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "RelativePath": "2023/6/25/f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6/历年真题(八).mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2023\\6\\25\\f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6\\历年真题(八).mp3"
+    },
+    {
+      "Identity": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\index.html",
+      "SourceId": "FileService.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
