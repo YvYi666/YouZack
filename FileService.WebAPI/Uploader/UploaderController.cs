@@ -27,12 +27,12 @@ public class UploaderController : ControllerBase
     /// <param name="request"></param>
     /// <returns></returns>
     [HttpGet]
-    public async Task<FileExistsResponse> FileExists(long fileSize, string sha256Hash)
+    public async Task<FileExistsResponse> FileExists( string sha256Hash)
     {
-        var item = await repository.FindFileAsync(fileSize, sha256Hash);
+        var item = await repository.FindFileAsync( sha256Hash);
         if (item == null)
         {
-            return new FileExistsResponse(false, null);
+            return new FileExistsResponse(false, null);  
         }
         else
         {
@@ -41,7 +41,7 @@ public class UploaderController : ControllerBase
     }
 
     //todo: 做好校验，参考OSS的接口，防止被滥用
-    //todo：应该由应用服务器向fileserver申请一个上传码（可以指定申请的个数，这个接口只能供应用服务器调用），
+    //todo：应该由应用服务器向fileServer申请一个上传码（可以指定申请的个数，这个接口只能供应用服务器调用），
     //页面直传只能使用上传码上传一个文件，防止接口被恶意利用。应用服务器要控制发放上传码的频率。
     //todo：再提供一个非页面直传的接口，供服务器用
     [HttpPost]

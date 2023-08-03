@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.Commons\bin\Debug\net6.0\Zack.Commons.dll" target="lib\net6.0\Zack.Commons.dll" />
+    <file src="E:\Administrator\YouZack\YouZack\Zack.Commons\bin\Debug\net6.0\Zack.Commons.dll" target="lib\net6.0\Zack.Commons.dll" />
   </files>
 </package>

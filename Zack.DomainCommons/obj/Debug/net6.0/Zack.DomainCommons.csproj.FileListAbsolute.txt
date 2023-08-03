@@ -22,3 +22,15 @@ E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.DomainCommons\obj\
 E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.DomainCommons\obj\Debug\net6.0\refint\Zack.DomainCommons.dll
 E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.pdb
 E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.DomainCommons\obj\Debug\net6.0\ref\Zack.DomainCommons.dll
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\bin\Debug\net6.0\Zack.DomainCommons.deps.json
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\bin\Debug\net6.0\Zack.DomainCommons.dll
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\bin\Debug\net6.0\Zack.DomainCommons.pdb
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.csproj.AssemblyReference.cache
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.GeneratedMSBuildEditorConfig.editorconfig
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.AssemblyInfoInputs.cache
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.AssemblyInfo.cs
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.csproj.CoreCompileInputs.cache
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.dll
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\refint\Zack.DomainCommons.dll
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\Zack.DomainCommons.pdb
+E:\Administrator\YouZack\YouZack\Zack.DomainCommons\obj\Debug\net6.0\ref\Zack.DomainCommons.dll

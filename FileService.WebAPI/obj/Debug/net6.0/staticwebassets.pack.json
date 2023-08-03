@@ -1,19 +1,27 @@
 {
   "Files": [
     {
-      "Id": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\07f1437f8c0add507151141e958c2ceb4bd59b085b921dcafefb5728ed51179b\\330c7018-b1f1-4807-b5df-77a0689739a0.m4a",
+      "Id": "E:\\Administrator\\YouZack\\YouZack\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\07f1437f8c0add507151141e958c2ceb4bd59b085b921dcafefb5728ed51179b\\330c7018-b1f1-4807-b5df-77a0689739a0.m4a",
       "PackagePath": "staticwebassets\\2023\\6\\25\\07f1437f8c0add507151141e958c2ceb4bd59b085b921dcafefb5728ed51179b\\330c7018-b1f1-4807-b5df-77a0689739a0.m4a"
     },
     {
-      "Id": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\164e2648a094fbfe743da8730f9d7d390af5702fa04220d51cacb3be49dd87da\\历年真题(八).m4a",
+      "Id": "E:\\Administrator\\YouZack\\YouZack\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\164e2648a094fbfe743da8730f9d7d390af5702fa04220d51cacb3be49dd87da\\历年真题(八).m4a",
       "PackagePath": "staticwebassets\\2023\\6\\25\\164e2648a094fbfe743da8730f9d7d390af5702fa04220d51cacb3be49dd87da\\历年真题(八).m4a"
     },
     {
-      "Id": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6\\历年真题(八).mp3",
+      "Id": "E:\\Administrator\\YouZack\\YouZack\\FileService.WebAPI\\wwwroot\\2023\\6\\25\\f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6\\历年真题(八).mp3",
       "PackagePath": "staticwebassets\\2023\\6\\25\\f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6\\历年真题(八).mp3"
     },
     {
-      "Id": "E:\\Administrator\\YZK\\NETBookMaterials\\code\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\index.html",
+      "Id": "E:\\Administrator\\YouZack\\YouZack\\FileService.WebAPI\\wwwroot\\2023\\7\\6\\1a1046f08f0848c5126a0b81f9ab80bb88bdbb3f6efe603956b9536660a50e4f\\历年真题(一).mp3",
+      "PackagePath": "staticwebassets\\2023\\7\\6\\1a1046f08f0848c5126a0b81f9ab80bb88bdbb3f6efe603956b9536660a50e4f\\历年真题(一).mp3"
+    },
+    {
+      "Id": "E:\\Administrator\\YouZack\\YouZack\\FileService.WebAPI\\wwwroot\\2023\\7\\6\\f92d66d2b918af5382033e1912d61921c98a8595f7d503375665d21ade7643a1\\27ad1004-e6f1-428a-b954-cab278e5cde0.m4a",
+      "PackagePath": "staticwebassets\\2023\\7\\6\\f92d66d2b918af5382033e1912d61921c98a8595f7d503375665d21ade7643a1\\27ad1004-e6f1-428a-b954-cab278e5cde0.m4a"
+    },
+    {
+      "Id": "E:\\Administrator\\YouZack\\YouZack\\FileService.WebAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

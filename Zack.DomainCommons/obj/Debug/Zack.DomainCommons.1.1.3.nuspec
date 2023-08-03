@@ -13,6 +13,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.DomainCommons\bin\Debug\net6.0\Zack.DomainCommons.dll" target="lib\net6.0\Zack.DomainCommons.dll" />
+    <file src="E:\Administrator\YouZack\YouZack\Zack.DomainCommons\bin\Debug\net6.0\Zack.DomainCommons.dll" target="lib\net6.0\Zack.DomainCommons.dll" />
   </files>
 </package>

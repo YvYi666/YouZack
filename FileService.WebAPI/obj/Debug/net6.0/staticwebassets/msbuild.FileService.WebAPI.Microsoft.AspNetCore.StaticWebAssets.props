@@ -48,6 +48,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\2023\6\25\f97d333e9c9a9df7efb08f302194ba44f9260d1b01a1c6c6c157141bd7ecadc6\历年真题(八).mp3))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\2023\7\6\1a1046f08f0848c5126a0b81f9ab80bb88bdbb3f6efe603956b9536660a50e4f\历年真题(一).mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>FileService.WebAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FileService.WebAPI</BasePath>
+      <RelativePath>2023/7/6/1a1046f08f0848c5126a0b81f9ab80bb88bdbb3f6efe603956b9536660a50e4f/历年真题(一).mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\2023\7\6\1a1046f08f0848c5126a0b81f9ab80bb88bdbb3f6efe603956b9536660a50e4f\历年真题(一).mp3))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\2023\7\6\f92d66d2b918af5382033e1912d61921c98a8595f7d503375665d21ade7643a1\27ad1004-e6f1-428a-b954-cab278e5cde0.m4a))">
+      <SourceType>Package</SourceType>
+      <SourceId>FileService.WebAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FileService.WebAPI</BasePath>
+      <RelativePath>2023/7/6/f92d66d2b918af5382033e1912d61921c98a8595f7d503375665d21ade7643a1/27ad1004-e6f1-428a-b954-cab278e5cde0.m4a</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\2023\7\6\f92d66d2b918af5382033e1912d61921c98a8595f7d503375665d21ade7643a1\27ad1004-e6f1-428a-b954-cab278e5cde0.m4a))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\index.html))">
       <SourceType>Package</SourceType>
       <SourceId>FileService.WebAPI</SourceId>

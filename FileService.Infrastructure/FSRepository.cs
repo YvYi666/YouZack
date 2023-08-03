@@ -12,10 +12,9 @@ namespace FileService.Infrastructure
             this.dbContext = dbContext;
         }
 
-        public Task<UploadedItem?> FindFileAsync(long fileSize, string sha256Hash)
+        public Task<UploadedItem?> FindFileAsync(string sha256Hash)
         {
-            return dbContext.UploadItems.FirstOrDefaultAsync(u => u.FileSizeInBytes == fileSize
-            && u.FileSHA256Hash == sha256Hash);
+            return dbContext.UploadItems.FirstOrDefaultAsync(u=>u.FileSHA256Hash == sha256Hash);
         }
     }
 }

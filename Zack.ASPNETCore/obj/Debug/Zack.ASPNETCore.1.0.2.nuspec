@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.ASPNETCore\bin\Debug\net6.0\Zack.ASPNETCore.dll" target="lib\net6.0\Zack.ASPNETCore.dll" />
+    <file src="E:\Administrator\YouZack\YouZack\Zack.ASPNETCore\bin\Debug\net6.0\Zack.ASPNETCore.dll" target="lib\net6.0\Zack.ASPNETCore.dll" />
   </files>
 </package>

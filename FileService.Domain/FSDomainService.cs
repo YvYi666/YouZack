@@ -19,8 +19,9 @@ public class FSDomainService
     {
         this.repository = repository;
         //用这种方式可以解决内置DI不能使用名字注入不同实例的问题，而且从原则上来讲更加优美
-        this.backupStorage = storageClients.First(c => c.StorageType == StorageType.Backup);
-        this.remoteStorage = storageClients.First(c => c.StorageType == StorageType.Public);
+        var enumerable = storageClients.ToList();
+        this.backupStorage = enumerable.First(c => c.StorageType == StorageType.Backup);
+        this.remoteStorage = enumerable.First(c => c.StorageType == StorageType.Public);
     }
 
     //领域服务只有抽象的业务逻辑
@@ -37,12 +38,12 @@ public class FSDomainService
 
         //查询是否有和上传文件的大小和SHA256一样的文件，如果有的话，就认为是同一个文件
         //虽然说前端可能已经调用FileExists接口检查过了，但是前端可能跳过了，或者有并发上传等问题，所以这里再检查一遍。
-        var oldUploadItem = await repository.FindFileAsync(fileSize, hash);
+        var oldUploadItem = await repository.FindFileAsync(hash);
         if (oldUploadItem != null)
         {
             return oldUploadItem;
         }
-        stream.Position = 0;
+        stream.Position = 0;//流的位置重置为0，以便从头开始读取流中的数据
         //backupStorage实现很稳定、速度很快，一般都使用本地存储（文件共享或者NAS）
         Uri backupUrl = await backupStorage.SaveAsync(key, stream, cancellationToken);//保存到本地备份
         stream.Position = 0;

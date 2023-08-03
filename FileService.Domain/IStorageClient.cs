@@ -14,6 +14,7 @@ namespace FileService.Domain
         /// </summary>
         /// <param name="key">文件的key（一般是文件路径的一部分）</param>
         /// <param name="content">文件内容</param>
+        /// <param name="cancellationToken"></param>
         /// <returns>存储返回的可以被访问的文件Url</returns>
         Task<Uri> SaveAsync(string key, Stream content, CancellationToken cancellationToken = default);
     }

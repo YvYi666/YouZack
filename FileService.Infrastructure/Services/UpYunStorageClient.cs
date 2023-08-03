@@ -42,7 +42,7 @@ namespace FileService.Infrastructure.Services
             {
                 throw new ArgumentException("key should not start with /", nameof(key));
             }
-            byte[] bytes = content.ToArray();
+            byte[] bytes = await content.ToArrayAsync();
             if (bytes.Length <= 0)
             {
                 throw new ArgumentException("file cannot be empty", nameof(content));

@@ -22,3 +22,15 @@ E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\SearchService.Domain\ob
 E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\SearchService.Domain\obj\Debug\net6.0\refint\SearchService.Domain.dll
 E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.pdb
 E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\SearchService.Domain\obj\Debug\net6.0\ref\SearchService.Domain.dll
+E:\Administrator\YouZack\YouZack\SearchService.Domain\bin\Debug\net6.0\SearchService.Domain.deps.json
+E:\Administrator\YouZack\YouZack\SearchService.Domain\bin\Debug\net6.0\SearchService.Domain.dll
+E:\Administrator\YouZack\YouZack\SearchService.Domain\bin\Debug\net6.0\SearchService.Domain.pdb
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.csproj.AssemblyReference.cache
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.AssemblyInfoInputs.cache
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.AssemblyInfo.cs
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.csproj.CoreCompileInputs.cache
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.dll
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\refint\SearchService.Domain.dll
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\SearchService.Domain.pdb
+E:\Administrator\YouZack\YouZack\SearchService.Domain\obj\Debug\net6.0\ref\SearchService.Domain.dll

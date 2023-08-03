@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="E:\Administrator\YZK\NETBookMaterials\code\YouZack-VNext\Zack.JWT\bin\Debug\net6.0\Zack.JWT.dll" target="lib\net6.0\Zack.JWT.dll" />
+    <file src="E:\Administrator\YouZack\YouZack\Zack.JWT\bin\Debug\net6.0\Zack.JWT.dll" target="lib\net6.0\Zack.JWT.dll" />
   </files>
 </package>

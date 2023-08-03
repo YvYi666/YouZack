@@ -17,29 +17,30 @@ namespace FileService.Infrastructure.Services
         public MockCloudStorageClient(IWebHostEnvironment hostEnv, IHttpContextAccessor httpContextAccessor)
         {
             this.hostEnv = hostEnv;
-            this.httpContextAccessor = httpContextAccessor;
+            this.httpContextAccessor = httpContextAccessor; 
         }
 
         public async Task<Uri> SaveAsync(string key, Stream content, CancellationToken cancellationToken = default)
         {
-            if (key.StartsWith('/'))
+            if (key.StartsWith('/'))//检查是否以/开头抛出异常
             {
                 throw new ArgumentException("key should not start with /", nameof(key));
             }
             string workingDir = Path.Combine(hostEnv.ContentRootPath, "wwwroot");
-            string fullPath = Path.Combine(workingDir, key);
-            string? fullDir = Path.GetDirectoryName(fullPath);//get the directory
+            string fullPath = Path.Combine(workingDir, key);//生成完整的文件路径
+            string fullDir = Path.GetDirectoryName(fullPath)!;//获取目录
             if (!Directory.Exists(fullDir))//automatically create dir
             {
-                Directory.CreateDirectory(fullDir);
+                Directory.CreateDirectory(fullDir);//如果目录已经存在,CreateDirectory方法不会执行任何操作。
             }
             if (File.Exists(fullPath))//如果已经存在，则尝试删除
             {
                 File.Delete(fullPath);
             }
-            using Stream outStream = File.OpenWrite(fullPath);
-            await content.CopyToAsync(outStream, cancellationToken);
-            var req = httpContextAccessor.HttpContext.Request;
+
+            await using Stream outStream = File.OpenWrite(fullPath);
+            await content.CopyToAsync(outStream, cancellationToken).ConfigureAwait(false);//避免在等待异步操作完成时捕获同步上下文
+            var req = httpContextAccessor.HttpContext!.Request;
             string url = req.Scheme + "://" + req.Host + "/FileService/" + key;
             return new Uri(url);
         }
